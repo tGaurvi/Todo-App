@@ -33,6 +33,7 @@ jobs:
         - run: npm install
         - run: | 
             npm run build
+            npm run export
             echo "list:-"
             ls
   
